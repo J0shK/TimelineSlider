@@ -1,0 +1,590 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4D5C8050258B176D00F9D31E /* TimelineSliderApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D5C804F258B176D00F9D31E /* TimelineSliderApp.swift */; };
+		4D5C8052258B176D00F9D31E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D5C8051258B176D00F9D31E /* ContentView.swift */; };
+		4D5C8054258B176E00F9D31E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D5C8053258B176E00F9D31E /* Assets.xcassets */; };
+		4D5C8057258B176E00F9D31E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D5C8056258B176E00F9D31E /* Preview Assets.xcassets */; };
+		4D5C8063258B176E00F9D31E /* TimelineSliderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D5C8062258B176E00F9D31E /* TimelineSliderTests.swift */; };
+		4D5C806E258B176E00F9D31E /* TimelineSliderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D5C806D258B176E00F9D31E /* TimelineSliderUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4D5C805F258B176E00F9D31E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4D5C8044258B176D00F9D31E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4D5C804B258B176D00F9D31E;
+			remoteInfo = TimelineSlider;
+		};
+		4D5C806A258B176E00F9D31E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4D5C8044258B176D00F9D31E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4D5C804B258B176D00F9D31E;
+			remoteInfo = TimelineSlider;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4D5C804C258B176D00F9D31E /* TimelineSlider.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TimelineSlider.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D5C804F258B176D00F9D31E /* TimelineSliderApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimelineSliderApp.swift; sourceTree = "<group>"; };
+		4D5C8051258B176D00F9D31E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		4D5C8053258B176E00F9D31E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4D5C8056258B176E00F9D31E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4D5C8058258B176E00F9D31E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D5C8059258B176E00F9D31E /* TimelineSlider.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TimelineSlider.entitlements; sourceTree = "<group>"; };
+		4D5C805E258B176E00F9D31E /* TimelineSliderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TimelineSliderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D5C8062258B176E00F9D31E /* TimelineSliderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimelineSliderTests.swift; sourceTree = "<group>"; };
+		4D5C8064258B176E00F9D31E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D5C8069258B176E00F9D31E /* TimelineSliderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TimelineSliderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D5C806D258B176E00F9D31E /* TimelineSliderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimelineSliderUITests.swift; sourceTree = "<group>"; };
+		4D5C806F258B176E00F9D31E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4D5C8049258B176D00F9D31E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D5C805B258B176E00F9D31E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D5C8066258B176E00F9D31E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4D5C8043258B176D00F9D31E = {
+			isa = PBXGroup;
+			children = (
+				4D5C804E258B176D00F9D31E /* TimelineSlider */,
+				4D5C8061258B176E00F9D31E /* TimelineSliderTests */,
+				4D5C806C258B176E00F9D31E /* TimelineSliderUITests */,
+				4D5C804D258B176D00F9D31E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4D5C804D258B176D00F9D31E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4D5C804C258B176D00F9D31E /* TimelineSlider.app */,
+				4D5C805E258B176E00F9D31E /* TimelineSliderTests.xctest */,
+				4D5C8069258B176E00F9D31E /* TimelineSliderUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4D5C804E258B176D00F9D31E /* TimelineSlider */ = {
+			isa = PBXGroup;
+			children = (
+				4D5C804F258B176D00F9D31E /* TimelineSliderApp.swift */,
+				4D5C8051258B176D00F9D31E /* ContentView.swift */,
+				4D5C8053258B176E00F9D31E /* Assets.xcassets */,
+				4D5C8058258B176E00F9D31E /* Info.plist */,
+				4D5C8059258B176E00F9D31E /* TimelineSlider.entitlements */,
+				4D5C8055258B176E00F9D31E /* Preview Content */,
+			);
+			path = TimelineSlider;
+			sourceTree = "<group>";
+		};
+		4D5C8055258B176E00F9D31E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				4D5C8056258B176E00F9D31E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4D5C8061258B176E00F9D31E /* TimelineSliderTests */ = {
+			isa = PBXGroup;
+			children = (
+				4D5C8062258B176E00F9D31E /* TimelineSliderTests.swift */,
+				4D5C8064258B176E00F9D31E /* Info.plist */,
+			);
+			path = TimelineSliderTests;
+			sourceTree = "<group>";
+		};
+		4D5C806C258B176E00F9D31E /* TimelineSliderUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4D5C806D258B176E00F9D31E /* TimelineSliderUITests.swift */,
+				4D5C806F258B176E00F9D31E /* Info.plist */,
+			);
+			path = TimelineSliderUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4D5C804B258B176D00F9D31E /* TimelineSlider */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D5C8072258B176E00F9D31E /* Build configuration list for PBXNativeTarget "TimelineSlider" */;
+			buildPhases = (
+				4D5C8048258B176D00F9D31E /* Sources */,
+				4D5C8049258B176D00F9D31E /* Frameworks */,
+				4D5C804A258B176D00F9D31E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TimelineSlider;
+			productName = TimelineSlider;
+			productReference = 4D5C804C258B176D00F9D31E /* TimelineSlider.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4D5C805D258B176E00F9D31E /* TimelineSliderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D5C8075258B176E00F9D31E /* Build configuration list for PBXNativeTarget "TimelineSliderTests" */;
+			buildPhases = (
+				4D5C805A258B176E00F9D31E /* Sources */,
+				4D5C805B258B176E00F9D31E /* Frameworks */,
+				4D5C805C258B176E00F9D31E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4D5C8060258B176E00F9D31E /* PBXTargetDependency */,
+			);
+			name = TimelineSliderTests;
+			productName = TimelineSliderTests;
+			productReference = 4D5C805E258B176E00F9D31E /* TimelineSliderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4D5C8068258B176E00F9D31E /* TimelineSliderUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D5C8078258B176E00F9D31E /* Build configuration list for PBXNativeTarget "TimelineSliderUITests" */;
+			buildPhases = (
+				4D5C8065258B176E00F9D31E /* Sources */,
+				4D5C8066258B176E00F9D31E /* Frameworks */,
+				4D5C8067258B176E00F9D31E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4D5C806B258B176E00F9D31E /* PBXTargetDependency */,
+			);
+			name = TimelineSliderUITests;
+			productName = TimelineSliderUITests;
+			productReference = 4D5C8069258B176E00F9D31E /* TimelineSliderUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4D5C8044258B176D00F9D31E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					4D5C804B258B176D00F9D31E = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					4D5C805D258B176E00F9D31E = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = 4D5C804B258B176D00F9D31E;
+					};
+					4D5C8068258B176E00F9D31E = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = 4D5C804B258B176D00F9D31E;
+					};
+				};
+			};
+			buildConfigurationList = 4D5C8047258B176D00F9D31E /* Build configuration list for PBXProject "TimelineSlider" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4D5C8043258B176D00F9D31E;
+			productRefGroup = 4D5C804D258B176D00F9D31E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4D5C804B258B176D00F9D31E /* TimelineSlider */,
+				4D5C805D258B176E00F9D31E /* TimelineSliderTests */,
+				4D5C8068258B176E00F9D31E /* TimelineSliderUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4D5C804A258B176D00F9D31E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D5C8057258B176E00F9D31E /* Preview Assets.xcassets in Resources */,
+				4D5C8054258B176E00F9D31E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D5C805C258B176E00F9D31E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D5C8067258B176E00F9D31E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4D5C8048258B176D00F9D31E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D5C8052258B176D00F9D31E /* ContentView.swift in Sources */,
+				4D5C8050258B176D00F9D31E /* TimelineSliderApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D5C805A258B176E00F9D31E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D5C8063258B176E00F9D31E /* TimelineSliderTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D5C8065258B176E00F9D31E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D5C806E258B176E00F9D31E /* TimelineSliderUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4D5C8060258B176E00F9D31E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4D5C804B258B176D00F9D31E /* TimelineSlider */;
+			targetProxy = 4D5C805F258B176E00F9D31E /* PBXContainerItemProxy */;
+		};
+		4D5C806B258B176E00F9D31E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4D5C804B258B176D00F9D31E /* TimelineSlider */;
+			targetProxy = 4D5C806A258B176E00F9D31E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4D5C8070258B176E00F9D31E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4D5C8071258B176E00F9D31E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		4D5C8073258B176E00F9D31E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = TimelineSlider/TimelineSlider.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"TimelineSlider/Preview Content\"";
+				DEVELOPMENT_TEAM = EH59283EWX;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = TimelineSlider/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = JKLOL.TimelineSlider;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		4D5C8074258B176E00F9D31E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = TimelineSlider/TimelineSlider.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"TimelineSlider/Preview Content\"";
+				DEVELOPMENT_TEAM = EH59283EWX;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = TimelineSlider/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = JKLOL.TimelineSlider;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		4D5C8076258B176E00F9D31E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = EH59283EWX;
+				INFOPLIST_FILE = TimelineSliderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = JKLOL.TimelineSliderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TimelineSlider.app/Contents/MacOS/TimelineSlider";
+			};
+			name = Debug;
+		};
+		4D5C8077258B176E00F9D31E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = EH59283EWX;
+				INFOPLIST_FILE = TimelineSliderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = JKLOL.TimelineSliderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TimelineSlider.app/Contents/MacOS/TimelineSlider";
+			};
+			name = Release;
+		};
+		4D5C8079258B176E00F9D31E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = EH59283EWX;
+				INFOPLIST_FILE = TimelineSliderUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = JKLOL.TimelineSliderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = TimelineSlider;
+			};
+			name = Debug;
+		};
+		4D5C807A258B176E00F9D31E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = EH59283EWX;
+				INFOPLIST_FILE = TimelineSliderUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = JKLOL.TimelineSliderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = TimelineSlider;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4D5C8047258B176D00F9D31E /* Build configuration list for PBXProject "TimelineSlider" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D5C8070258B176E00F9D31E /* Debug */,
+				4D5C8071258B176E00F9D31E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4D5C8072258B176E00F9D31E /* Build configuration list for PBXNativeTarget "TimelineSlider" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D5C8073258B176E00F9D31E /* Debug */,
+				4D5C8074258B176E00F9D31E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4D5C8075258B176E00F9D31E /* Build configuration list for PBXNativeTarget "TimelineSliderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D5C8076258B176E00F9D31E /* Debug */,
+				4D5C8077258B176E00F9D31E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4D5C8078258B176E00F9D31E /* Build configuration list for PBXNativeTarget "TimelineSliderUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D5C8079258B176E00F9D31E /* Debug */,
+				4D5C807A258B176E00F9D31E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4D5C8044258B176D00F9D31E /* Project object */;
+}
