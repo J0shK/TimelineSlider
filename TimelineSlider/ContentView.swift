@@ -55,7 +55,7 @@ struct ContentView: View {
                     viewModel.set(start: newCMStartTime, stop: newCMStopTime)
                 }
                 .padding()
-        }
+        }.fixedSize()
     }
 }
 

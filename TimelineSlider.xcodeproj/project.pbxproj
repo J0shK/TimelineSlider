@@ -15,6 +15,7 @@
 		4D5C806E258B176E00F9D31E /* TimelineSliderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D5C806D258B176E00F9D31E /* TimelineSliderUITests.swift */; };
 		4D5C807F258B178200F9D31E /* TimelineSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D5C807E258B178200F9D31E /* TimelineSlider.swift */; };
 		4D5C8084258B17A600F9D31E /* RoundedCorners.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D5C8083258B17A600F9D31E /* RoundedCorners.swift */; };
+		4D9C4C512597FD6800D0DB5E /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 4D9C4C502597FD6700D0DB5E /* README.md */; };
 		4DF44DD7258B213800726336 /* TimelineSliderViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DF44DD6258B213800726336 /* TimelineSliderViewModel.swift */; };
 /* End PBXBuildFile section */
 
@@ -51,6 +52,7 @@
 		4D5C806F258B176E00F9D31E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4D5C807E258B178200F9D31E /* TimelineSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimelineSlider.swift; sourceTree = "<group>"; };
 		4D5C8083258B17A600F9D31E /* RoundedCorners.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedCorners.swift; sourceTree = "<group>"; };
+		4D9C4C502597FD6700D0DB5E /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		4DF44DD6258B213800726336 /* TimelineSliderViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimelineSliderViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -82,6 +84,7 @@
 		4D5C8043258B176D00F9D31E = {
 			isa = PBXGroup;
 			children = (
+				4D9C4C502597FD6700D0DB5E /* README.md */,
 				4D5C804E258B176D00F9D31E /* TimelineSlider */,
 				4D5C8061258B176E00F9D31E /* TimelineSliderTests */,
 				4D5C806C258B176E00F9D31E /* TimelineSliderUITests */,
@@ -244,6 +247,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D9C4C512597FD6800D0DB5E /* README.md in Resources */,
 				4D5C8057258B176E00F9D31E /* Preview Assets.xcassets in Resources */,
 				4D5C8054258B176E00F9D31E /* Assets.xcassets in Resources */,
 			);
