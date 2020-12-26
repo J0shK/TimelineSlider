@@ -1,3 +1,4 @@
 # Timeline Slider
-Trim videos like Quicktime
+![slider](slider.gif)
 
+Trim videos like Quicktime
