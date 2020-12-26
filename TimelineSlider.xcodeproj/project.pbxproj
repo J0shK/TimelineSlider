@@ -13,6 +13,9 @@
 		4D5C8057258B176E00F9D31E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D5C8056258B176E00F9D31E /* Preview Assets.xcassets */; };
 		4D5C8063258B176E00F9D31E /* TimelineSliderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D5C8062258B176E00F9D31E /* TimelineSliderTests.swift */; };
 		4D5C806E258B176E00F9D31E /* TimelineSliderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D5C806D258B176E00F9D31E /* TimelineSliderUITests.swift */; };
+		4D5C807F258B178200F9D31E /* TimelineSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D5C807E258B178200F9D31E /* TimelineSlider.swift */; };
+		4D5C8084258B17A600F9D31E /* RoundedCorners.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D5C8083258B17A600F9D31E /* RoundedCorners.swift */; };
+		4DF44DD7258B213800726336 /* TimelineSliderViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DF44DD6258B213800726336 /* TimelineSliderViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +49,9 @@
 		4D5C8069258B176E00F9D31E /* TimelineSliderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TimelineSliderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D5C806D258B176E00F9D31E /* TimelineSliderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimelineSliderUITests.swift; sourceTree = "<group>"; };
 		4D5C806F258B176E00F9D31E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D5C807E258B178200F9D31E /* TimelineSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimelineSlider.swift; sourceTree = "<group>"; };
+		4D5C8083258B17A600F9D31E /* RoundedCorners.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedCorners.swift; sourceTree = "<group>"; };
+		4DF44DD6258B213800726336 /* TimelineSliderViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimelineSliderViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +105,9 @@
 				4D5C804F258B176D00F9D31E /* TimelineSliderApp.swift */,
 				4D5C8051258B176D00F9D31E /* ContentView.swift */,
 				4D5C8053258B176E00F9D31E /* Assets.xcassets */,
+				4DF44DD6258B213800726336 /* TimelineSliderViewModel.swift */,
+				4D5C807E258B178200F9D31E /* TimelineSlider.swift */,
+				4D5C8083258B17A600F9D31E /* RoundedCorners.swift */,
 				4D5C8058258B176E00F9D31E /* Info.plist */,
 				4D5C8059258B176E00F9D31E /* TimelineSlider.entitlements */,
 				4D5C8055258B176E00F9D31E /* Preview Content */,
@@ -261,7 +270,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D5C8084258B17A600F9D31E /* RoundedCorners.swift in Sources */,
 				4D5C8052258B176D00F9D31E /* ContentView.swift in Sources */,
+				4DF44DD7258B213800726336 /* TimelineSliderViewModel.swift in Sources */,
+				4D5C807F258B178200F9D31E /* TimelineSlider.swift in Sources */,
 				4D5C8050258B176D00F9D31E /* TimelineSliderApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
